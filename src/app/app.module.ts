@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Comp1Component } from './comp1/comp1.component';
 import { Comp2Component } from './comp2/comp2.component';
-console.log("MultipleApps module");
+console.log("MultipleApps module"); 
 @NgModule({
   declarations: [
     AppComponent,
