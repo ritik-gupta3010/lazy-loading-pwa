@@ -13,7 +13,7 @@ console.log("exp1 module");
     Exp1Comp2Component
   ],
   imports: [
-    BrowserModule,
+    // BrowserModule,
     AppRoutingModule
   ],
   providers: [],
