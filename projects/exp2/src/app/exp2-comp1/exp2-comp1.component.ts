@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./exp2-comp1.component.css']
 })
 export class Exp2Comp1Component {
-
+  constructor() {
+    console.log("exp2-comp1 cons");
+  }
 }

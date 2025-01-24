@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-// import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,7 +13,7 @@ console.log("exp1 module");
     Exp1Comp2Component
   ],
   imports: [
-    // BrowserModule,
+    BrowserModule,
     AppRoutingModule
   ],
   providers: [],

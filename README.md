@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+referrence links 
+https://medium.com/disney-streaming/combining-multiple-angular-applications-into-a-single-one-e87d530d6527
+https://www.tektutorialshub.com/angular/angular-multiple-apps-in-one-project/#google_vignette
+https://medium.com/@piyalidas.it/forroot-and-forchild-of-angular-lazy-loading-module-209252a15c5e
+https://codeburst.io/how-to-implement-lazy-loading-in-angular-bb2a670b34d
+
+ng new MultipleApps
+ng generate application exp1(for sub application)
+ng serve(for running)
+ng serve exp1 -- --port 4201 / ng serve --project="exp1" -- --port 4201 / ng serve --project=exp1 -- --port 4201  (for running sub application)
+ng g c exp1-comp --project=exp1 (for generating component in sub application)
